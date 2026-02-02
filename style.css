@@ -1,0 +1,17 @@
+:root {
+    --primary-bg-color: lightblue;
+    --dark-primary-bg-color: darkblue;
+    --secondary-bg-color: lightgray;
+    --primary-text-color: darkblue;
+    --secondary-text-color: darkgray;
+}
+
+.page-header {
+    color: white;
+    background-color: var(--dark-primary-bg-color);
+    background: linear-gradient(to right, var(--dark-primary-bg-color), #1e90ff);
+}
+
+#hero-header {
+    font-weight: bold;
+}
