@@ -15,3 +15,7 @@
 #hero-header {
     font-weight: bold;
 }
+
+.divider {
+    background-color: var(--secondary-bg-color);
+}
