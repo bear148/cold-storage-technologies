@@ -9,7 +9,11 @@
 .page-header {
     color: white;
     background-color: var(--dark-primary-bg-color);
-    background: linear-gradient(to right, var(--dark-primary-bg-color), #1e90ff);
+    background: linear-gradient(to right, var(--dark-primary-bg-color), #1770c9);
+}
+
+.navbar a {
+    color: white;
 }
 
 #hero-header {
@@ -18,4 +22,25 @@
 
 .divider {
     background-color: var(--secondary-bg-color);
+box-shadow: inset 0 0 1rem rgba(0, 0, 0, .5);
+}
+
+.navbar a:hover {
+    color: var(--secondary-text-color);
+}
+
+.divider-header {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+footer {
+    background-color: var(--dark-primary-bg-color);
 }
